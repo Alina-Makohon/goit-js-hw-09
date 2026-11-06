@@ -7,7 +7,30 @@
     <title>Document</title>
   </head>
   <body>
-    <a href="./index.html">Go Back</a>
+    <main>
+      <a class="nav-btm" href="./index.html">Go Back</a>
+      <form class="feedback-form" autocomplete="off">
+        <label>
+          Email
+          <input
+            class="input-area email-area"
+            type="email"
+            name="email"
+            autofocus
+          />
+        </label>
+        <label>
+          Message
+          <textarea
+            class="input-area message-area"
+            name="message"
+            rows="8"
+          ></textarea>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
     <script type="module" src="./js/2-form.js"></script>
   </body>
 </html>
